@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InventoryAppMainActivity">
+
+    <Button
+        android:id="@+id/add_data_button_id"
+        android:text="Add Dummy Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/read_data_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read Data"/>
+
+    <TextView
+        android:textSize="22sp"
+        android:id="@+id/database_data_entries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
