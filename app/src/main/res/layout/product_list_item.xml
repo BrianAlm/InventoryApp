@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/eight_margin_bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/eight_margin_bottom">
+
+        <TextView
+            android:layout_weight="6"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:id="@+id/product_name_id" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:drawableStart="@drawable/ic_edit_black_24dp"
+            android:id="@+id/edit_product_button_id"
+            android:text="@string/edit_product_label"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/eight_margin_bottom">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price_label"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/product_price_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/eight_margin_bottom">
+
+        <TextView
+            android:textStyle="bold"
+            android:text="@string/in_stock_item"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/padding_end_divisor"
+            android:paddingStart="0dp"
+            android:id="@+id/stock_availability_id"/>
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/stock_amount_id"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/supplier_name_id"
+        android:layout_marginBottom="@dimen/eight_margin_bottom"/>
+
+    <TextView
+        android:autoLink="phone"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:drawableStart="@drawable/ic_call_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/supplier_phone_number"
+        android:paddingEnd="@dimen/padding_end_divisor"
+        android:paddingStart="0dp"
+        android:layout_marginBottom="@dimen/eight_margin_bottom"/>
+
+    <Button
+        android:id="@+id/buy_button_id"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buy_button_label"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16dp"
+        android:layout_marginBottom="@dimen/eight_margin_bottom"
+        />
+
+</LinearLayout>

@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".data.InventoryProvider"
+            android:authorities="com.example.brianalmanzar.myinventoryapp"
+            android:exported="false" />
+
+        <activity android:name=".AddAndRemoveProductActivity"
+            android:parentActivityName=".InventoryAppMainActivity">
+
+        </activity>
     </application>
 
 </manifest>

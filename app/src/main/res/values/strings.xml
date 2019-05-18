@@ -1,3 +1,52 @@
 <resources>
     <string name="app_name">My Inventory App</string>
+
+    <string name="edit_product_label">Edit</string>
+    <string name="in_stock_item">In Stock</string>
+    <string name="out_of_stock_item">Out Of Stock</string>
+
+    <string name="price_label">Price : </string>
+
+    <string name="buy_button_label">Buy</string>
+
+    <string name="dollar_sign">$</string>
+    <string name="products_left"> left</string>
+    <string name="menu_delete_button_label">Delete All</string>
+
+    <string name="no_products_on_the_database_message">There are no products on the database. Add one by pressing the ADD (+) button at the bottom right of the screen.</string>
+    <!-- Edit and Add product strings -->
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+
+    <string name="edit_product_name_label">Product Name : </string>
+    <string name="edit_product_name_hint">Add Product Name</string>
+
+    <string name="edit_product_price_label">Price : </string>
+    <string name="edit_product_price_hint">Set Price</string>
+
+    <string name="edit_product_quantity_label">Quantity : </string>
+    <string name="edit_product_quantity_hint">Set Quantity</string>
+    <string name="edit_product_increase_quantity_button">+</string>
+    <string name="edit_product_increase_quantity_button_tag">1</string>
+    <string name="edit_product_decrease_quantity_button">-</string>
+    <string name="edit_product_decrease_quantity_button_tag">0</string>
+
+    <string name="edit_product_supplier_name_label">Supplier : </string>
+    <string name="edit_product_supplier_name_hint">Add Supplier Name</string>
+
+    <string name="edit_product_supplier_phone_number_label">Phone Number : </string>
+    <string name="edit_product_supplier_phone_number_hint">Provide Area Code</string>
+
+    <!--  Edit Activity Menu -->
+    <string name="delete_product_menu_label">Delete Product</string>
+    <string name="add_product_menu_label">Add Product</string>
+
+    <!-- Dialog Box Strings -->
+    <string name="delete_dialog_msg">Are you sure you want to delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes">Unsaved Changes</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
 </resources>

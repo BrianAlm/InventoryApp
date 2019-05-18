@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="eight_margin_bottom">8dp</dimen>
+
+    <dimen name="padding_end_divisor">5dp</dimen>
+
+    <dimen name="product_name_text_size_label">19sp</dimen>
+
+    <dimen name="edit_linear_layout_eight_padding">8dp</dimen>
+
+</resources>
